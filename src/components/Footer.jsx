@@ -3,17 +3,23 @@ import styles from './Footer.module.css';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div>Ultimate Tech ZW</div>
+      <div>
+        <img
+          src='./images/logo.svg'
+          className={styles.logo}
+          alt='Ultimate Tech logo'
+        />
+      </div>
       <nav className={styles.nav}>
         <ul className={styles.list}>
           <li>
-            <a href='/'>Shop</a>
-          </li>
-          <li>
             <a href='/'>Explore</a>
           </li>
+
           <li>
-            <a href='/'>Cart</a>
+            <a href='/' className={styles.orders}>
+              Orders
+            </a>
           </li>
         </ul>
       </nav>

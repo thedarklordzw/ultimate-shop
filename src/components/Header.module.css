@@ -1,11 +1,12 @@
 .logo {
-  width: 20rem;
+  width: 30rem;
   height: auto;
 }
 
 .header {
   display: flex;
   align-items: center;
+  color: inherit;
   margin-bottom: 8rem;
   padding-top: 5rem;
   justify-content: space-between;
@@ -16,4 +17,22 @@
   display: flex;
   justify-content: space-between;
   gap: 4rem;
+}
+
+.orders {
+  background-color: #e57300;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  font-family: inherit;
+  padding: 1.5rem 5rem;
+  transition: all 300ms ease-in;
+  width: 100%;
+  border-radius: 0.7rem;
+  font-family: 1.3rem;
+}
+
+.orders:hover {
+  background-color: #daeef2;
+  color: #2e3033;
 }
