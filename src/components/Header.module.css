@@ -19,6 +19,12 @@
   gap: 4rem;
 }
 
+.menu {
+  display: hidden;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .orders {
   background-color: #e57300;
   border: 0;
@@ -35,4 +41,29 @@
 .orders:hover {
   background-color: #daeef2;
   color: #2e3033;
+}
+
+@media screen and (max-width: 44em) {
+  .list {
+    display: hidden;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .menu {
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;
+    pointer-events: auto;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

@@ -1,4 +1,5 @@
 import styles from './Header.module.css';
+import { HamburgerMenuIcon } from '@radix-ui/react-icons';
 
 const Header = () => {
   return (
@@ -22,6 +23,9 @@ const Header = () => {
             </a>
           </li>
         </ul>
+        <div className={styles.menu}>
+          <HamburgerMenuIcon />
+        </div>
       </nav>
     </header>
   );
