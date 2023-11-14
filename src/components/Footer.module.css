@@ -1,8 +1,21 @@
 .footer {
   display: flex;
-  margin-bottom: 8rem;
+  flex-direction: column;
+
   padding-bottom: 5rem;
+}
+
+.details {
+  display: flex;
+  gap: 8rem;
+  margin-bottom: 6rem;
   justify-content: space-between;
+  align-items: center;
+}
+.small {
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
 }
 
 .logo {

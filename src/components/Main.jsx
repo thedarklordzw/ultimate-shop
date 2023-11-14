@@ -33,7 +33,7 @@ const Main = () => {
         />
         <h2 className={styles.title}>Romoss Sense Mini 10 000mAh</h2>
         <ul className={styles.desc}>
-          <li>10000mAh Capacity</li>
+          <li>10 000mAh Capacity</li>
           <li>LED level indicators</li>
           <li>Micro USB & Type-C input ports</li>
         </ul>
@@ -53,7 +53,7 @@ const Main = () => {
         />
         <h2 className={styles.title}>Redmi 20 000mAh 18W QW333e</h2>
         <ul className={styles.desc}>
-          <li>20000mAh Capacity</li>
+          <li>20 000mAh Capacity</li>
           <li>Dual Output Ports</li>
           <li>Two-way 18W Fast Charge</li>
         </ul>
@@ -73,7 +73,7 @@ const Main = () => {
         />
         <h2 className={styles.title}>Romoss Zeus 60 000mAh</h2>
         <ul className={styles.desc}>
-          <li>60000mAh High-capacity</li>
+          <li>60 000mAh High-capacity</li>
           <li>18W Two Way Quick Charge</li>
           <li>Huawei SCP 22.5W Super Fast Charge</li>
         </ul>

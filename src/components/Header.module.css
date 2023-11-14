@@ -1,5 +1,5 @@
 .logo {
-  width: 30rem;
+  width: 40rem;
   height: auto;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .menu {
-  display: hidden;
+  display: none;
   visibility: hidden;
   pointer-events: none;
 }
@@ -45,9 +45,14 @@
 
 @media screen and (max-width: 44em) {
   .list {
-    display: hidden;
+    display: none;
     visibility: hidden;
     pointer-events: none;
+  }
+
+  .logo {
+    width: 28rem;
+    height: auto;
   }
 
   .menu {
@@ -55,8 +60,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
+    width: 2.4rem;
+    color: red;
+    fill: red;
+    height: 2.4rem;
     display: block;
     pointer-events: auto;
   }
@@ -65,5 +72,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 32em) {
+  .logo {
+    width: 22rem;
   }
 }
