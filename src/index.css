@@ -3,16 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 :root {
-  font-family: Barlow, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Figtree, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 62.5%;
 
   color-scheme: light dark;
-
   background-color: #181e29;
   color: #ccdeff;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

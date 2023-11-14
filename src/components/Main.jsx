@@ -34,12 +34,16 @@ const Main = () => {
         <h2 className={styles.title}>Romoss Sense Mini 10000mAh</h2>
         <ul className={styles.desc}>
           <li>10000mAh Capacity</li>
-          <li>LED level indicators for % charge</li>
+          <li>LED level indicators</li>
           <li>Micro USB & Type-C input ports</li>
         </ul>
-        <button className={styles.btn} onClick={orderRomoss10Handler}>
+        <a
+          href='https://wa.me/263776122880?text=Hi,%20I%20want%20to%20order%20the%20Romoss%2010%20000mAH%20powerbank.'
+          className={styles.btn}
+          onClick={orderRomoss10Handler}
+        >
           Order Now
-        </button>
+        </a>
       </section>
       <section className={styles.section}>
         <img
@@ -53,7 +57,13 @@ const Main = () => {
           <li>Dual Output Ports</li>
           <li>Two-way 18W Fast Charge</li>
         </ul>
-        <button className={styles.btn}>Order Now</button>
+        <a
+          href='https://wa.me/263776122880?text=Hi,%20I%20want%20to%20order%20the%20Redmi%2020%20000mAH%20powerbank.'
+          className={styles.btn}
+          onClick={orderRomoss10Handler}
+        >
+          Order Now
+        </a>
       </section>
       <section className={styles.section}>
         <img
@@ -64,10 +74,16 @@ const Main = () => {
         <h2 className={styles.title}>Romoss Zeus 60000mAh</h2>
         <ul className={styles.desc}>
           <li>60000mAh High-capacity</li>
-          <li>18W PD3.0+QC3.0 Two Way Quick Charge</li>
+          <li>18W Two Way Quick Charge</li>
           <li>Huawei SCP 22.5W Super Fast Charge</li>
         </ul>
-        <button className={styles.btn}>Order Now</button>
+        <a
+          href='https://wa.me/263776122880?text=Hi,%20I%20want%20to%20order%20the%20Romoss%2060%20000mAH%20powerbank.'
+          className={styles.btn}
+          onClick={orderRomoss10Handler}
+        >
+          Order Now
+        </a>
       </section>
     </main>
   );
