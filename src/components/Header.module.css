@@ -1,0 +1,19 @@
+.logo {
+  width: 20rem;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8rem;
+  padding-top: 5rem;
+  justify-content: space-between;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}

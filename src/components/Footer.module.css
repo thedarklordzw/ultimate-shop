@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  margin-bottom: 8rem;
+  padding-bottom: 5rem;
+  justify-content: space-between;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
