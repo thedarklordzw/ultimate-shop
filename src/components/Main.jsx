@@ -31,7 +31,7 @@ const Main = () => {
           src='./images/romoss20-edited.png'
           alt='Romoss PowerBank 10000mAH'
         />
-        <h2 className={styles.title}>Romoss Sense Mini 10000mAh</h2>
+        <h2 className={styles.title}>Romoss Sense Mini 10 000mAh</h2>
         <ul className={styles.desc}>
           <li>10000mAh Capacity</li>
           <li>LED level indicators</li>
@@ -51,7 +51,7 @@ const Main = () => {
           src='./images/redmi-edited.png'
           alt='Redmi Powerbank 20000mAH'
         />
-        <h2 className={styles.title}>Redmi 20000mAh 18W QW333e</h2>
+        <h2 className={styles.title}>Redmi 20 000mAh 18W QW333e</h2>
         <ul className={styles.desc}>
           <li>20000mAh Capacity</li>
           <li>Dual Output Ports</li>
@@ -71,7 +71,7 @@ const Main = () => {
           src='./images/romoss60-edited.png'
           alt='Romoss PowerBank 60000mAH'
         />
-        <h2 className={styles.title}>Romoss Zeus 60000mAh</h2>
+        <h2 className={styles.title}>Romoss Zeus 60 000mAh</h2>
         <ul className={styles.desc}>
           <li>60000mAh High-capacity</li>
           <li>18W Two Way Quick Charge</li>

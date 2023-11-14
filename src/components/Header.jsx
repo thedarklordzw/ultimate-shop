@@ -4,13 +4,13 @@ import { HamburgerMenuIcon } from '@radix-ui/react-icons';
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div>
+      <a href='/'>
         <img
           src='./images/logo.svg'
           className={styles.logo}
           alt='Ultimate Tech logo'
         />
-      </div>
+      </a>
       <nav className={styles.nav}>
         <ul className={styles.list}>
           <li>
