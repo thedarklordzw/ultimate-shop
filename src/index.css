@@ -93,3 +93,9 @@ a:hover,
 a:active {
   color: #e57300;
 }
+
+/* @media screen and (max-width: 62.5em) {
+  body {
+    position: fixed;
+  }
+} */

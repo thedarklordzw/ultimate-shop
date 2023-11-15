@@ -57,6 +57,8 @@
 
   .menu {
     visibility: visible;
+    display: block;
+    pointer-events: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,14 +66,29 @@
     height: 2.4rem;
     color: red;
     fill: red;
-    display: block;
-    pointer-events: auto;
+  }
+
+  .icon {
+    visibility: hidden;
+    outline: 0;
+    border: 0;
+    display: none;
+    pointer-events: none;
   }
 
   .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 62.5em) {
+  .icon {
+    background-color: transparent;
+    visibility: visible;
+    display: block;
+    pointer-events: all;
   }
 }
 

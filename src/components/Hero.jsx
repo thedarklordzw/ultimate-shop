@@ -6,7 +6,7 @@ const Hero = () => {
       <h1 className={styles.heading}>Free Delivery!</h1>
       <p className={styles.byline}>What are you waiting for?</p>
       <a href='/' className={styles.orders}>
-        Make an Order
+        Order Now &rarr;
       </a>
     </section>
   );

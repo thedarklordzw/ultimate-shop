@@ -1,7 +1,10 @@
 import styles from './Header.module.css';
 import Menu from '../assets/menu.svg';
 
-const Header = () => {
+const Header = props => {
+  // eslint-disable-next-line react/prop-types
+  const { modalHandler } = props;
+
   return (
     <header className={styles.header}>
       <a href='/'>
@@ -24,7 +27,9 @@ const Header = () => {
           </li>
         </ul>
 
-        <img src={Menu} alt='Menu icon' className={styles.menu} />
+        <button className={styles.icon} onClick={modalHandler}>
+          <img src={Menu} alt='Menu icon' className={styles.menu} />
+        </button>
       </nav>
     </header>
   );

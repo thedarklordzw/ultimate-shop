@@ -3,10 +3,10 @@ import Main from '../components/Main';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 
-const Home = () => {
+const Home = props => {
   return (
     <>
-      <Header />
+      <Header {...props} />
       <Hero />
       <Main />
       <Footer />
