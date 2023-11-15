@@ -40,6 +40,10 @@
   margin-bottom: 3rem;
 }
 
+.span {
+  overflow-wrap: break-word;
+}
+
 .icon {
   width: 2.4rem;
   fill: #0c111a;
@@ -119,3 +123,21 @@
     flex: 1 1 auto;
   }
 }
+
+@media screen and (max-width: 31.25em) {
+  .title {
+    font-size: 1.9rem;
+    overflow-wrap: break-word;
+    font-weight: 600;
+  }
+
+  .desc {
+    font-size: 1.6rem;
+  }
+}
+
+/* @media screen and (max-width: 25em) {
+  .title {
+    font-size: 1.6rem;
+  }
+} */
