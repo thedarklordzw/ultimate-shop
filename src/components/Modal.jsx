@@ -1,4 +1,5 @@
 import styles from './Modal.module.css';
+import Menu from '../assets/menu.svg';
 
 const Modal = () => {
   return (
@@ -47,6 +48,9 @@ const Modal = () => {
           </li>
         </ul>
       </nav>
+      <button className={styles.icon}>
+        <img src={Menu} alt='Menu icon' className={styles.menu} />
+      </button>
     </div>
   );
 };

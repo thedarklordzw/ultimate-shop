@@ -2,6 +2,7 @@
   height: 100vh;
 
   position: absolute;
+
   top: 0;
   left: 0;
   z-index: 999;
@@ -10,6 +11,20 @@
   display: none;
   background-color: #181e29;
   pointer-events: none;
+}
+
+.icon {
+  position: absolute;
+  right: 10%;
+  color: red;
+  background: green;
+  top: 10%;
+  width: 2.4rem;
+  height: 2.4rem;
+  z-index: 999;
+  background-color: transparent;
+  padding: 0;
+  border: 0;
 }
 
 .logo {
