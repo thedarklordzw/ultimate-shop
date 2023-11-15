@@ -16,6 +16,10 @@
   color: #b8c8e5;
 }
 
+.section:nth-child(2) {
+  position: relative;
+}
+
 .title {
   font-size: 2.3rem;
   line-height: 1;
@@ -24,6 +28,25 @@
   font-weight: 400;
   color: #b8c8e5;
   text-transform: uppercase;
+}
+
+.banner {
+  position: absolute;
+  top: -3%;
+  left: 5%;
+  border: 0.3rem solid #b8c8e5;
+
+  padding: 1rem 2rem;
+  background-color: red;
+  border-radius: 1rem;
+}
+
+.subhead {
+  font-weight: 900;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #fff;
 }
 
 .desc {
@@ -124,11 +147,21 @@
   }
 }
 
+@media screen and (max-width: 50em) {
+  .main {
+    gap: 3.5rem;
+  }
+}
+
 @media screen and (max-width: 31.25em) {
   .title {
     font-size: 1.9rem;
     overflow-wrap: break-word;
     font-weight: 600;
+  }
+
+  .subhead {
+    font-size: 1.6rem;
   }
 
   .desc {

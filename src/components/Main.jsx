@@ -49,6 +49,9 @@ const Main = () => {
         </a>
       </section>
       <section className={styles.section}>
+        <div className={styles.banner}>
+          <h3 className={styles.subhead}>Best Deal</h3>
+        </div>
         <img
           className={styles.img}
           src='./images/redmi-edited.png'
