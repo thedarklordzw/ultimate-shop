@@ -10,14 +10,14 @@ function App() {
   const [isModal, setIsModal] = useState(false);
 
   const modalToggleHandler = () => {
-    setIsModal(!isModal);
-
     if (isModal) {
-      document.body.style.overflow = 'hidden';
-      console.log(isModal, true);
-    } else {
+      setIsModal(false);
       document.body.style.overflow = 'unset';
-      console.log(isModal, false);
+    }
+
+    if (!isModal) {
+      setIsModal(true);
+      document.body.style.overflow = 'hidden';
     }
   };
 
