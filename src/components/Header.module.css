@@ -43,7 +43,7 @@
   color: #2e3033;
 }
 
-@media screen and (max-width: 44em) {
+@media screen and (max-width: 62.5em) {
   .list {
     display: none;
     visibility: hidden;
@@ -61,9 +61,9 @@
     align-items: center;
     justify-content: center;
     width: 2.4rem;
+    height: 2.4rem;
     color: red;
     fill: red;
-    height: 2.4rem;
     display: block;
     pointer-events: auto;
   }

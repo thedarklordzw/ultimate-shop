@@ -37,12 +37,13 @@ const Main = () => {
           <li>LED level indicators</li>
           <li>Micro USB & Type-C input ports</li>
         </ul>
+        <h3 className={styles.pricing}>$19.99</h3>
         <a
           href='https://wa.me/263776122880?text=Hi,%20I%20want%20to%20order%20the%20Romoss%2010%20000mAH%20powerbank.'
           className={styles.btn}
           onClick={orderRomoss10Handler}
         >
-          Order Now
+          Order Now &rarr;
         </a>
       </section>
       <section className={styles.section}>
@@ -57,12 +58,13 @@ const Main = () => {
           <li>Dual Output Ports</li>
           <li>Two-way 18W Fast Charge</li>
         </ul>
+        <h3 className={styles.pricing}>$36.99</h3>
         <a
           href='https://wa.me/263776122880?text=Hi,%20I%20want%20to%20order%20the%20Redmi%2020%20000mAH%20powerbank.'
           className={styles.btn}
           onClick={orderRomoss10Handler}
         >
-          Order Now
+          Order Now &rarr;
         </a>
       </section>
       <section className={styles.section}>
@@ -77,12 +79,13 @@ const Main = () => {
           <li>18W Two Way Quick Charge</li>
           <li>Huawei SCP 22.5W Super Fast Charge</li>
         </ul>
+        <h3 className={styles.pricing}>$69.99</h3>
         <a
           href='https://wa.me/263776122880?text=Hi,%20I%20want%20to%20order%20the%20Romoss%2060%20000mAH%20powerbank.'
           className={styles.btn}
           onClick={orderRomoss10Handler}
         >
-          Order Now
+          Order Now &rarr;
         </a>
       </section>
     </main>
