@@ -4,14 +4,17 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <section className={styles.details}>
-        <img
-          src='./images/logo.svg'
-          className={styles.logo}
-          alt='Ultimate Tech logo'
-        />
-
+        <a href='/'>
+          <img
+            src='./images/logo.svg'
+            className={styles.logo}
+            alt='Ultimate Tech logo'
+          />
+        </a>
         <small className={styles.small}>&copy; 2023, UltimateTech</small>
-        <a href='/'>Contact Us</a>
+        <a href='/' className={styles.contact}>
+          Contact Us
+        </a>
       </section>
     </footer>
   );
