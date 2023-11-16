@@ -21,7 +21,10 @@ const Header = props => {
           </li>
 
           <li>
-            <a href='/' className={styles.orders}>
+            <a
+              href='https://wa.me/263776122880?text=Hi,%20I%20want%20to%20order%20the%20Romoss%2010%20000mAH%20powerbank.'
+              className={styles.orders}
+            >
               Orders
             </a>
           </li>

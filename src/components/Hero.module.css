@@ -27,6 +27,7 @@
   background-color: #e57300;
   border: 0;
   cursor: pointer;
+  color: #fff !important;
   outline: 0;
   font-family: inherit;
   padding: 1.5rem 5rem;
@@ -38,7 +39,7 @@
 
 .orders:hover {
   background-color: #daeef2;
-  color: #2e3033;
+  color: #2e3033 !important;
 }
 
 @media screen and (max-width: 33.25em) {
