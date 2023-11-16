@@ -150,9 +150,14 @@
   }
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 52em) {
   .main {
     gap: 3.5rem;
+    margin-bottom: 9rem;
+  }
+
+  .section:nth-child(3) {
+    flex: 1 1 auto;
   }
 }
 
@@ -161,6 +166,10 @@
     font-size: 1.9rem;
     overflow-wrap: break-word;
     font-weight: 600;
+  }
+
+  .main {
+    margin-bottom: 6rem;
   }
 
   .subhead {

@@ -80,4 +80,13 @@
   .logo {
     width: 22rem;
   }
+
+  .details {
+    gap: 2rem;
+  }
+
+  .small {
+    font-size: 1.6rem;
+    text-align: left;
+  }
 }

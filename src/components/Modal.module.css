@@ -23,7 +23,7 @@
   position: absolute;
   right: 10%;
   color: red;
-  background: green;
+
   top: 10%;
   width: 2.4rem;
   height: 2.4rem;
@@ -45,11 +45,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   list-style: none;
   padding: 0;
 
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
 }
 
@@ -60,12 +60,15 @@
 
 .order {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 1.8rem;
 }
 
 .orders {
-  background-color: #e57300;
   border: 0;
+
+  /* border: 0.2rem solid #daeef2; */
+  /* background-color: red; */
+  background-color: #e57300;
   cursor: pointer;
   outline: 0;
   font-family: inherit;

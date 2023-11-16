@@ -1,5 +1,6 @@
 import styles from './Header.module.css';
-import Menu from '../assets/menu.svg';
+
+import { HamburgerMenuIcon } from '@radix-ui/react-icons';
 
 const Header = props => {
   // eslint-disable-next-line react/prop-types
@@ -31,7 +32,7 @@ const Header = props => {
         </ul>
 
         <button className={styles.icon} onClick={modalHandler}>
-          <img src={Menu} alt='Menu icon' className={styles.menu} />
+          <HamburgerMenuIcon className={styles.menu} />
         </button>
       </nav>
     </header>

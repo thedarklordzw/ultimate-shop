@@ -1,5 +1,6 @@
 import styles from './Modal.module.css';
-import Menu from '../assets/menu.svg';
+
+import { Cross1Icon } from '@radix-ui/react-icons';
 
 const Modal = props => {
   // eslint-disable-next-line react/prop-types
@@ -53,7 +54,7 @@ const Modal = props => {
         </ul>
       </nav>
       <button className={styles.icon} onClick={modalHandler}>
-        <img src={Menu} alt='Menu icon' className={styles.menu} />
+        <Cross1Icon className={styles.menu} />
       </button>
     </div>
   );
