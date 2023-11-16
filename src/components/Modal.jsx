@@ -1,7 +1,11 @@
 import styles from './Modal.module.css';
 import Menu from '../assets/menu.svg';
 
-const Modal = () => {
+const Modal = props => {
+  // eslint-disable-next-line react/prop-types
+  const { modalHandler } = props;
+  console.log(props);
+
   return (
     <div className={styles.modal}>
       <a href='/'>
@@ -48,7 +52,7 @@ const Modal = () => {
           </li>
         </ul>
       </nav>
-      <button className={styles.icon}>
+      <button className={styles.icon} onClick={modalHandler}>
         <img src={Menu} alt='Menu icon' className={styles.menu} />
       </button>
     </div>

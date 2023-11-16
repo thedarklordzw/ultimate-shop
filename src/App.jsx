@@ -10,6 +10,7 @@ function App() {
   const [isModal, setIsModal] = useState(false);
 
   const modalToggleHandler = () => {
+    console.log('clicked me :O');
     if (isModal) {
       setIsModal(false);
       document.body.style.overflow = 'unset';
@@ -23,7 +24,8 @@ function App() {
 
   return (
     <>
-      {isModal && createPortal(<Modal />, ModalElement)}
+      {isModal &&
+        createPortal(<Modal modalHandler={modalToggleHandler} />, ModalElement)}
       <Home modalHandler={modalToggleHandler} />
     </>
   );

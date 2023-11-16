@@ -141,9 +141,12 @@
 }
 
 @media screen and (max-width: 65em) {
-  .section,
-  .section:nth-child(3) {
+  .section {
     flex: 1 1 auto;
+  }
+
+  .section:nth-child(3) {
+    flex: 0 1 50%;
   }
 }
 
