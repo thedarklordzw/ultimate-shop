@@ -1,6 +1,8 @@
 import { createPortal } from 'react-dom';
 import { useState } from 'react';
+import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
+import About from './pages/About';
 import Modal from './components/Modal';
 import './index.css';
 
@@ -26,7 +28,14 @@ function App() {
     <>
       {isModal &&
         createPortal(<Modal modalHandler={modalToggleHandler} />, ModalElement)}
-      <Home modalHandler={modalToggleHandler} />
+      <Switch>
+        <Route path='/about'>
+          <About modalHandler={modalToggleHandler} />
+        </Route>
+        <Route path='/'>
+          <Home modalHandler={modalToggleHandler} />
+        </Route>
+      </Switch>
     </>
   );
 }

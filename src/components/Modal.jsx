@@ -20,7 +20,7 @@ const Modal = props => {
         <ul className={styles.list}>
           <li>
             <a
-              href='https://wa.me/263776122880?text=Hi,%20I%20want%20to%20order%20the%20Romoss%2010%20000mAH%20powerbank.
+              href='https://chat.whatsapp.com/C4Kitj0oy9TLwou8tVic9O.
 '
             >
               Explore
@@ -48,7 +48,7 @@ const Modal = props => {
 '
               className={styles.orders}
             >
-              Order Now
+              Order Now &rarr;
             </a>
           </li>
         </ul>
